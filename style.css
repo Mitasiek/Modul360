@@ -1,0 +1,200 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    }
+
+.header{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 20px 5px;
+    display: flex;
+    position: static;
+}
+
+.menu{
+    cursor: pointer;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.logo{
+    margin-left: -50px;
+}
+
+.main{
+    max-height: 100vh;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 180px;
+    padding-top: 32px;
+    padding-bottom: 0;
+    display: block;
+}
+
+.section{
+    padding-bottom: 29px;
+}
+
+.section-text{
+    text-align: center;
+    letter-spacing: 7px;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-rows: minmax(50vw, 100vh);
+    grid-template-columns: 50% 50%;
+    grid-gap: 1vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 0;
+}
+
+.grid1-section1{
+    cursor: pointer;
+    background-image: url('assets/housing_2.jpg');
+    max-height: 100vh;
+    background-position: 50%;
+    background-size: cover;
+
+}
+
+.grid1-section2{
+    cursor: pointer;
+    background-image: url('assets/office_2.webp');
+    max-height: 100vh;
+    background-position: 50%;
+    background-size: cover;
+    margin-right: 20px;
+    padding-right: 10px;
+
+}
+
+.footer{
+    min-height: 70vh;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: #979ea8;
+    padding-top: 100px;
+    margin-left: -10px;
+    margin-bottom: -10px;
+    letter-spacing: 4px;
+}
+
+.footer-div1{
+    padding-bottom: 10px;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.footer-div2{
+
+}
+
+.footer-grid{
+    display: grid;
+    grid-column-gap: 75px;
+    grid-row-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-grid-div1{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.footer-grid-div2{
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    
+}
+
+.div-about{
+    letter-spacing: 8px;
+}
+
+.div-social{
+    margin-left: 5vw;
+}
+
+
+.button {
+  background-color: #424242;
+  margin-left: 40px;
+  border: 0;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #898c94;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  letter-spacing: 4px;
+}
+
+.button:hover {
+  background-color: rgb(24, 25, 26);
+}
+
+.button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button:focus-visible {
+  box-shadow: none;
+}
+
+.button2{
+    background-color: #262727;
+}
+
+.phone{
+    align-items: center;
+    display: flex;
+}
+
+.gps{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mail{
+    align-items: center;
+    display: flex;
+}
+
+.contact-text{
+    margin-left: 40px;
+    letter-spacing: 4px;
+}
